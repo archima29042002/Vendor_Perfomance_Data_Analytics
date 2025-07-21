@@ -1,0 +1,148 @@
+2025-07-21 19:16:19,345 - INFO - Creating Vendor Summary Table....
+2025-07-21 19:16:19,435 - INFO -    VendorNumber                   VendorName  Brand  \
+0           480  BACARDI USA INC               4227   
+1           480  BACARDI USA INC               3858   
+2         12546  JIM BEAM BRANDS COMPANY       1476   
+3          4425        MARTIGNETTI COMPANIES   3405   
+4          3960  DIAGEO NORTH AMERICA INC      4261   
+
+                 Description  PurchasePrice  ActualPrice Volume  \
+0  Bacardi Superior Rum Trav          14.17        17.99   1750   
+1           Grey Goose Vodka          17.77        23.99    750   
+2          Jim Beam Traveler          16.05        21.99   1750   
+3      Tito's Handmade Vodka          23.19        28.99   1750   
+4     Capt Morgan Spiced Rum          16.17        22.99   1750   
+
+   TotalPurchaseQuantity  TotalPurchaseDollars  TotalSalesQuantity  \
+0                   4906              69518.02                 NaN   
+1                   3202              56899.54                 NaN   
+2                   2550              40927.50                41.0   
+3                    997              23120.43                76.0   
+4                   1241              20066.97                 NaN   
+
+   TotalSalesDollars  TotalSalesPrice  TotalExciseTax  FreightCost  
+0                NaN              NaN             NaN     89286.27  
+1                NaN              NaN             NaN     89286.27  
+2             901.59           285.87           75.34    123880.97  
+3            2279.24           569.81          139.62    144929.24  
+4                NaN              NaN             NaN    257032.07  
+2025-07-21 19:16:19,448 - INFO - Cleaning Data.....
+2025-07-21 19:16:32,558 - INFO - Creating Vendor Summary Table....
+2025-07-21 19:16:32,668 - INFO -    VendorNumber                   VendorName  Brand  \
+0           480  BACARDI USA INC               4227   
+1           480  BACARDI USA INC               3858   
+2         12546  JIM BEAM BRANDS COMPANY       1476   
+3          4425        MARTIGNETTI COMPANIES   3405   
+4          3960  DIAGEO NORTH AMERICA INC      4261   
+
+                 Description  PurchasePrice  ActualPrice Volume  \
+0  Bacardi Superior Rum Trav          14.17        17.99   1750   
+1           Grey Goose Vodka          17.77        23.99    750   
+2          Jim Beam Traveler          16.05        21.99   1750   
+3      Tito's Handmade Vodka          23.19        28.99   1750   
+4     Capt Morgan Spiced Rum          16.17        22.99   1750   
+
+   TotalPurchaseQuantity  TotalPurchaseDollars  TotalSalesQuantity  \
+0                   4906              69518.02                 NaN   
+1                   3202              56899.54                 NaN   
+2                   2550              40927.50                41.0   
+3                    997              23120.43                76.0   
+4                   1241              20066.97                 NaN   
+
+   TotalSalesDollars  TotalSalesPrice  TotalExciseTax  FreightCost  
+0                NaN              NaN             NaN     89286.27  
+1                NaN              NaN             NaN     89286.27  
+2             901.59           285.87           75.34    123880.97  
+3            2279.24           569.81          139.62    144929.24  
+4                NaN              NaN             NaN    257032.07  
+2025-07-21 19:16:32,673 - INFO - Cleaning Data.....
+2025-07-21 19:16:32,681 - INFO -    VendorNumber                VendorName  Brand                Description  \
+0           480           BACARDI USA INC   4227  Bacardi Superior Rum Trav   
+1           480           BACARDI USA INC   3858           Grey Goose Vodka   
+2         12546   JIM BEAM BRANDS COMPANY   1476          Jim Beam Traveler   
+3          4425     MARTIGNETTI COMPANIES   3405      Tito's Handmade Vodka   
+4          3960  DIAGEO NORTH AMERICA INC   4261     Capt Morgan Spiced Rum   
+
+   PurchasePrice  ActualPrice  Volume  TotalPurchaseQuantity  \
+0          14.17        17.99  1750.0                   4906   
+1          17.77        23.99   750.0                   3202   
+2          16.05        21.99  1750.0                   2550   
+3          23.19        28.99  1750.0                    997   
+4          16.17        22.99  1750.0                   1241   
+
+   TotalPurchaseDollars  TotalSalesQuantity  TotalSalesDollars  \
+0              69518.02                 0.0               0.00   
+1              56899.54                 0.0               0.00   
+2              40927.50                41.0             901.59   
+3              23120.43                76.0            2279.24   
+4              20066.97                 0.0               0.00   
+
+   TotalSalesPrice  TotalExciseTax  FreightCost  
+0             0.00            0.00     89286.27  
+1             0.00            0.00     89286.27  
+2           285.87           75.34    123880.97  
+3           569.81          139.62    144929.24  
+4             0.00            0.00    257032.07  
+2025-07-21 19:16:32,686 - INFO - Ingesting Data.....
+2025-07-21 19:16:32,686 - INFO - Completed
+2025-07-21 19:17:10,534 - INFO - Creating Vendor Summary Table....
+2025-07-21 19:17:10,627 - INFO -    VendorNumber                   VendorName  Brand  \
+0           480  BACARDI USA INC               4227   
+1           480  BACARDI USA INC               3858   
+2         12546  JIM BEAM BRANDS COMPANY       1476   
+3          4425        MARTIGNETTI COMPANIES   3405   
+4          3960  DIAGEO NORTH AMERICA INC      4261   
+
+                 Description  PurchasePrice  ActualPrice Volume  \
+0  Bacardi Superior Rum Trav          14.17        17.99   1750   
+1           Grey Goose Vodka          17.77        23.99    750   
+2          Jim Beam Traveler          16.05        21.99   1750   
+3      Tito's Handmade Vodka          23.19        28.99   1750   
+4     Capt Morgan Spiced Rum          16.17        22.99   1750   
+
+   TotalPurchaseQuantity  TotalPurchaseDollars  TotalSalesQuantity  \
+0                   4906              69518.02                 NaN   
+1                   3202              56899.54                 NaN   
+2                   2550              40927.50                41.0   
+3                    997              23120.43                76.0   
+4                   1241              20066.97                 NaN   
+
+   TotalSalesDollars  TotalSalesPrice  TotalExciseTax  FreightCost  
+0                NaN              NaN             NaN     89286.27  
+1                NaN              NaN             NaN     89286.27  
+2             901.59           285.87           75.34    123880.97  
+3            2279.24           569.81          139.62    144929.24  
+4                NaN              NaN             NaN    257032.07  
+2025-07-21 19:17:10,632 - INFO - Cleaning Data.....
+2025-07-21 19:17:10,638 - INFO -    VendorNumber                VendorName  Brand                Description  \
+0           480           BACARDI USA INC   4227  Bacardi Superior Rum Trav   
+1           480           BACARDI USA INC   3858           Grey Goose Vodka   
+2         12546   JIM BEAM BRANDS COMPANY   1476          Jim Beam Traveler   
+3          4425     MARTIGNETTI COMPANIES   3405      Tito's Handmade Vodka   
+4          3960  DIAGEO NORTH AMERICA INC   4261     Capt Morgan Spiced Rum   
+
+   PurchasePrice  ActualPrice  Volume  TotalPurchaseQuantity  \
+0          14.17        17.99  1750.0                   4906   
+1          17.77        23.99   750.0                   3202   
+2          16.05        21.99  1750.0                   2550   
+3          23.19        28.99  1750.0                    997   
+4          16.17        22.99  1750.0                   1241   
+
+   TotalPurchaseDollars  TotalSalesQuantity  TotalSalesDollars  \
+0              69518.02                 0.0               0.00   
+1              56899.54                 0.0               0.00   
+2              40927.50                41.0             901.59   
+3              23120.43                76.0            2279.24   
+4              20066.97                 0.0               0.00   
+
+   TotalSalesPrice  TotalExciseTax  FreightCost  
+0             0.00            0.00     89286.27  
+1             0.00            0.00     89286.27  
+2           285.87           75.34    123880.97  
+3           569.81          139.62    144929.24  
+4             0.00            0.00    257032.07  
+2025-07-21 19:17:10,643 - INFO - Ingesting Data.....
+2025-07-21 19:17:10,644 - INFO - Completed
+2025-07-21 19:20:06,677 - ERROR - No such comm target registered: jupyter.widget.control
+2025-07-21 19:20:06,682 - WARNING - No such comm: e48bda9e-21ed-48f7-b18c-acf8a119f21d
+2025-07-21 19:20:06,682 - DEBUG - Current comms: []
